@@ -13,10 +13,3 @@ INSERT INTO cohorts (id, name, start_date, end_date) VALUES (12, 'DEC17', '2018-
 
 ALTER SEQUENCE cohorts_id_seq RESTART WITH 13;
 
-echo "# BootcampX" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin git@github.com:jncrtv/BootcampX.git
-git push -u origin master
-                
